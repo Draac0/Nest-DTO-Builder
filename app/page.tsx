@@ -54,10 +54,30 @@ const Home = () => {
   };
 
   return (
+    
+    <>
+
     <div className="min-h-screen bg-gray-100 flex items-center justify-center py-6 px-4 sm:px-6 lg:px-8">
+      
       <div className="max-w-full w-full bg-white shadow-md rounded-md overflow-hidden flex flex-col lg:flex-row h-[90vh]">
         <div className="w-full lg:w-1/2 p-6 space-y-4 h-full overflow-y-auto">
-          <h2 className="text-lg ">Convert JSON to NestJS DTO</h2>
+          <div className='flex items-center space-x-2'>
+            <h2 className="text-lg ">Convert JSON to NestJS DTO</h2>
+            <a
+              href="https://github.com/Draac0/Nest-DTO-Builder"
+              target="_blank"
+              rel="noopener noreferrer"
+              className='flex items-center space-x-1 text-sm bg-gray-100 px-2 py-1 border border-gray-300'
+            >
+              <span>Star</span>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                alt="GitHub"
+                className="h-4 w-4 mr-2"
+              />
+            </a>
+          </div>
+
           <form onSubmit={handleSubmit} className="space-y-4 flex flex-col h-full">
             <div className="flex-grow">
               <textarea
@@ -137,6 +157,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
