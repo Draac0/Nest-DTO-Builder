@@ -4,7 +4,8 @@
 
 Nest DTO Builder is a powerful tool for developers to effortlessly convert JSON objects into NestJS DTO (Data Transfer Object) classes. This tool not only generates the basic structure but also includes additional options like class validators and Swagger annotations, making it easier for developers to ensure data validation and API documentation.
 
-
+## Live site
+[Nest dto builder live site](https://nest-dto-builder.vercel.app/)
 
 ## Features
 
@@ -44,47 +45,47 @@ Nest DTO Builder is a powerful tool for developers to effortlessly convert JSON 
 
 1. **Clone the repository**:
 
-  ```bash
-
-  git clone https://github.com/yourusername/nest-dto-builder.git
-
-  cd nest-dto-builder
-
-  ```
+    ```bash
+    
+    git clone https://github.com/Draac0/Nest-DTO-Builder.git
+    
+    cd nest-dto-builder
+    
+    ```
 
 
 
 2. **Install dependencies**:
 
-  ```bash
-
-  npm install
-
-  # or
-
-  yarn install
-
-  ```
+    ```bash
+    
+    npm install
+    
+    # or
+    
+    yarn install
+    
+    ```
 
 
 
 3. **Run the development server**:
 
-  ```bash
-
-  npm run dev
-
-  # or
-
-  yarn dev
-
-  ```
+    ```bash
+    
+    npm run dev
+    
+    # or
+    
+    yarn dev
+    
+    ```
 
 
 
 4. **Open the application**:
 
-  Open [http://localhost:3000](http://localhost:3000) in your browser.
+    Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 
 
@@ -164,29 +165,29 @@ We welcome contributions from the community. To contribute:
 
 2. **Create a new branch**:
 
-  ```bash
-
-  git checkout -b feature-branch
-
-  ```
+    ```bash
+    
+    git checkout -b feature-branch
+    
+    ```
 
 3. **Make your changes**.
 
 4. **Commit your changes**:
 
-  ```bash
-
-  git commit -m 'Add some feature'
-
-  ```
+    ```bash
+    
+    git commit -m 'Add some feature'
+    
+    ```
 
 5. **Push to the branch**:
 
-  ```bash
-
-  git push origin feature-branch
-
-  ```
+    ```bash
+    
+    git push origin feature-branch
+    
+    ```
 
 6. **Open a pull request**.
 
@@ -196,7 +197,7 @@ We welcome contributions from the community. To contribute:
 
 
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Draac0/Nest-DTO-Builder/blob/main/LICENSE) file for details.
 
 
 
